@@ -103,7 +103,7 @@ and_expression
 	: relational_expr ( and_operator relational_expr )* -> ^(AND_OP relational_expr+)
 	;
 
-
+    sald;kas;lkdk ;lk;asjdlk;
 
 relational_operator 
 	: ('gt'|'>') -> GT_OP
